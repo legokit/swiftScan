@@ -11,28 +11,28 @@ import UIKit
 open class LBXScanView: UIView {
     
     // 扫码区域各种参数
-    var viewStyle = LBXScanViewStyle()
+    public var viewStyle = LBXScanViewStyle()
 
     // 扫码区域
-    var scanRetangleRect = CGRect.zero
+    public var scanRetangleRect = CGRect.zero
 
     // 线条扫码动画封装
-    var scanLineAnimation: LBXScanLineAnimation?
+    public var scanLineAnimation: LBXScanLineAnimation?
 
     // 网格扫码动画封装
-    var scanNetAnimation: LBXScanNetAnimation?
+    public var scanNetAnimation: LBXScanNetAnimation?
     
     // 线条在中间位置，不移动
-    var scanLineStill: UIImageView?
+    public var scanLineStill: UIImageView?
 
     // 启动相机时 菊花等待
-    var activityView: UIActivityIndicatorView?
+    public var activityView: UIActivityIndicatorView?
 
     // 启动相机中的提示文字
-    var labelReadying: UILabel?
+    public var labelReadying: UILabel?
 
     // 记录动画状态
-    var isAnimationing = false
+    public var isAnimationing = false
     
     /**
     初始化扫描界面
