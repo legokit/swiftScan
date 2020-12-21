@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LBXScanNetAnimation: UIImageView {
+public class LBXScanNetAnimation: UIImageView {
 
     var isAnimationing = false
     var animationRect = CGRect.zero
